@@ -27,6 +27,6 @@ cd tonbreakerjs
 npm install
 ```
 
-## Лицензия
+## License
 
 This project is licensed under the MIT License. Details can be found in the [LICENSE](LICENSE).
