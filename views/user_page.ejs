@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+  <link rel="preload" as="font" href="https://builder.bookipi.com/_next/static/media/a34f9d1faa5f3315-s.p.woff2" crossorigin="" type="font/woff2">
+  <link rel="stylesheet" href="/css/39b8bd5083d68425.css" data-precedence="next">
+  <link rel="stylesheet" href="/css/523d675f0462af12.css" data-precedence="next">
+  <link rel="stylesheet" href="/css/026dd4f6c5a07333.css" data-precedence="next">
+  <link rel="stylesheet" href="/css/auth.css" data-precedence="next">
+  <meta name="next-size-adjust">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>TonBreaker</title>
+  <meta name="description" content="Create your altcoins on the TON blockchain quickly and conveniently">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://builder.bookipi.com/pages/kirbob/">
+  <meta property="og:title" content="Create AltCoins on TON Blockchain">
+  <meta property="og:description" content="Create your altcoins on the TON blockchain quickly and conveniently">
+  <meta property="og:site_name" content="TonBreaker">
+  <meta property="og:image" content="https://i.postimg.cc/wvypDKjc/temp-Imageh-Sj-Cbe.avif">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Create AltCoins on TON Blockchain">
+  <meta name="twitter:description" content="Create your altcoins on the TON blockchain quickly and conveniently">
+  <meta name="twitter:image" content="https://i.postimg.cc/wvypDKjc/temp-Imageh-Sj-Cbe.avif">
+  <link rel="icon" href="images/favicon.c71c81ea.png" sizes="32x32">
+  <style>
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        span {
+            display: block;
+            margin-bottom: 3px;
+            font-weight: normal; /* Убрали жирный шрифт */
+            color: #888; /* Более светлый серый цвет */
+            font-size: 12px; /* Уменьшили размер шрифта */
+        }
+
+        input[type="text"],
+        input[type="file"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        textarea {
+            resize: none;
+        }
+        button {
+            background-color: #0298ea;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #027aba; /* Темнее при наведении */
+        }
+        .file-upload {
+            display: flex; /* Используем Flexbox */
+            flex-direction: column; /* Размещаем элементы по вертикали */
+            align-items: center; /* Центрируем по горизонтали */
+            position: relative; /* Сравниваем положение относительно ближайшего родителя */
+        }
+
+        .file-upload input {
+            display: none; /* Скрываем оригинальный input */
+        }
+
+        .upload-label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px; /* Ширина кружка */
+            height: 50px; /* Высота кружка */
+            border-radius: 50%; /* Закругляем углы для создания кружка */
+            background-color: #f0f0f0; /* Цвет фона кружка */
+            border: 2px solid #2d3033; /* Цвет бордюра кружка */
+            cursor: pointer; /* Курсор-указатель при наведении */
+            transition: background-color 0.3s; /* Плавный переход цвета */
+            margin-top: 10px; /* Отступ сверху чтобы отделить от input */
+        }
+
+        .upload-label:hover {
+            background-color: #e0e0e0; /* Цвет при наведении */
+        }
+
+        .upload-icon {
+            font-size: 24px; /* Размер иконки */
+            color: #2d3033; /* Цвет иконки */
+        }
+
+    </style>
+    <script src='/js/main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<head><meta charset="utf-8"><link rel="preload" as="font" href="https://builder.bookipi.com/_next/static/media/a34f9d1faa5f3315-s.p.woff2" crossorigin="" type="font/woff2"><link rel="stylesheet" href="/css/39b8bd5083d68425.css" data-precedence="next"><link rel="stylesheet" href="/css/523d675f0462af12.css" data-precedence="next"><link rel="stylesheet" href="/css/026dd4f6c5a07333.css" data-precedence="next"><meta name="next-size-adjust"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>TonBreaker</title><meta name="description" content="Create your altcoins on the TON blockchain quickly and conveniently"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index, follow"><link rel="canonical" href="https://builder.bookipi.com/pages/kirbob/"><meta property="og:title" content="Create AltCoins on TON Blockchain"><meta property="og:description" content="Create your altcoins on the TON blockchain quickly and conveniently"><meta property="og:site_name" content="TonBreaker"><meta property="og:image" content="https://i.postimg.cc/wvypDKjc/temp-Imageh-Sj-Cbe.avif"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Create AltCoins on TON Blockchain"><meta name="twitter:description" content="Create your altcoins on the TON blockchain quickly and conveniently"><meta name="twitter:image" content="https://i.postimg.cc/wvypDKjc/temp-Imageh-Sj-Cbe.avif"><link rel="icon" href="images/favicon.c71c81ea.png" sizes="32x32"><script src="js/polyfills-78c92fac7aa8fdd8.js" nomodule=""></script></head>
+<body>
+    <main id="published-website" class="overflow-x-hidden">
+        <div class="content-grid mx-auto w-full @container">
+            <nav id="header" class="grid-full-width flex w-full flex-row justify-between bg-white px-4 py-6 @4xl:px-16">
+                <div class="flex w-full flex-col-reverse flex-wrap gap-6 overflow-x-hidden @4xl:flex-row @4xl:flex-nowrap @4xl:justify-between @4xl:gap-4">
+                    <div id="logo-siteName-button-group" class="flex flex-row flex-wrap justify-between ">
+                        <div id="logo-siteName-group" class="flex flex-1 flex-row items-center gap-3 overflow-hidden whitespace-nowrap">
+                            <div class="inline-block w-8 min-w-[32px]">
+                                <img alt="An abstract image showcasing blockchain technology" title="An abstract image showcasing blockchain technology" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" class="rounded-full object-cover" style="color:transparent;width:32px;height:32px" src="https://i.postimg.cc/wvypDKjc/temp-Imageh-Sj-Cbe.avif">
+                            </div>
+                            <h1 class="overflow-hidden overflow-ellipsis whitespace-nowrap break-words text-2xl font-semibold text-gray-900 @sm:max-w-none dark:text-gray-300">TonBreaker</h1>
+                        </div>
+                        <div id="button-group" class="order-3 m-1 justify-center @sm:inline-flex @4xl:hidden">
+                            <div class="flex w-full flex-col justify-center gap-3 md:max-w-full md:flex-row md:items-center md:gap-0">
+                                <div id="add_first" class="w-full md:w-fit shop-now-button hide-on-proposal">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="phone-social-group" class="flex w-full flex-row items-center justify-between @4xl:flex-1 @4xl:justify-end @4xl:gap-5">
+                        <li class="inline-flex justify-end">
+                            <ul class="flex flex-row items-center justify-center gap-4">
+                                <a href="https://www.instagram.com/ton_breaker?igsh=ZXRlYzZqbXRvZmIw">
+                                    <li>
+                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_713_34432)">
+                                                <path d="M10.0055 2.48506C12.4562 2.48506 12.7464 2.49581 13.7102 2.5388C14.6059 2.57821 15.0896 2.72869 15.412 2.85409C15.8384 3.0189 16.1465 3.21954 16.4654 3.53841C16.7878 3.86086 16.9849 4.1654 17.1497 4.59176C17.2751 4.91422 17.4256 5.40148 17.465 6.2936C17.508 7.26097 17.5187 7.55118 17.5187 9.99825C17.5187 12.4489 17.508 12.7391 17.465 13.7029C17.4256 14.5986 17.2751 15.0823 17.1497 15.4047C16.9849 15.8311 16.7842 16.1392 16.4654 16.4581C16.1429 16.7805 15.8384 16.9776 15.412 17.1424C15.0896 17.2678 14.6023 17.4183 13.7102 17.4577C12.7428 17.5007 12.4526 17.5114 10.0055 17.5114C7.55488 17.5114 7.26467 17.5007 6.30089 17.4577C5.40519 17.4183 4.9215 17.2678 4.59905 17.1424C4.17269 16.9776 3.86457 16.777 3.5457 16.4581C3.22324 16.1356 3.02619 15.8311 2.86138 15.4047C2.73598 15.0823 2.5855 14.595 2.54609 13.7029C2.50309 12.7355 2.49235 12.4453 2.49235 9.99825C2.49235 7.54759 2.50309 7.25738 2.54609 6.2936C2.5855 5.3979 2.73598 4.91422 2.86138 4.59176C3.02619 4.1654 3.22683 3.85728 3.5457 3.53841C3.86815 3.21595 4.17269 3.0189 4.59905 2.85409C4.9215 2.72869 5.40877 2.57821 6.30089 2.5388C7.26467 2.49581 7.55488 2.48506 10.0055 2.48506ZM10.0055 0.833374C7.51547 0.833374 7.20376 0.844123 6.22565 0.887116C5.25112 0.93011 4.58113 1.08775 4.00072 1.31347C3.39522 1.54994 2.88287 1.86165 2.37411 2.37399C1.86177 2.88275 1.55006 3.3951 1.3136 3.99701C1.08788 4.58101 0.930232 5.24742 0.887239 6.22195C0.844245 7.20364 0.833496 7.51535 0.833496 10.0054C0.833496 12.4955 0.844245 12.8072 0.887239 13.7853C0.930232 14.7598 1.08788 15.4298 1.3136 16.0102C1.55006 16.6157 1.86177 17.1281 2.37411 17.6368C2.88287 18.1456 3.39522 18.4609 3.99713 18.6938C4.58113 18.9195 5.24754 19.0771 6.22207 19.1201C7.20018 19.1631 7.51189 19.1739 10.002 19.1739C12.492 19.1739 12.8037 19.1631 13.7818 19.1201C14.7564 19.0771 15.4264 18.9195 16.0068 18.6938C16.6087 18.4609 17.121 18.1456 17.6298 17.6368C18.1386 17.1281 18.4538 16.6157 18.6867 16.0138C18.9124 15.4298 19.0701 14.7634 19.1131 13.7889C19.1561 12.8108 19.1668 12.4991 19.1668 10.009C19.1668 7.51893 19.1561 7.20723 19.1131 6.22911C19.0701 5.25458 18.9124 4.58459 18.6867 4.00418C18.461 3.3951 18.1493 2.88275 17.637 2.37399C17.1282 1.86523 16.6159 1.54994 16.0139 1.31706C15.4299 1.09134 14.7635 0.933693 13.789 0.890699C12.8073 0.844123 12.4956 0.833374 10.0055 0.833374Z" fill="#6B7280"></path>
+                                                <path d="M10.0055 5.29399C7.4044 5.29399 5.29412 7.40428 5.29412 10.0054C5.29412 12.6065 7.4044 14.7168 10.0055 14.7168C12.6067 14.7168 14.717 12.6065 14.717 10.0054C14.717 7.40428 12.6067 5.29399 10.0055 5.29399ZM10.0055 13.0616C8.31802 13.0616 6.94938 11.6929 6.94938 10.0054C6.94938 8.3179 8.31802 6.94926 10.0055 6.94926C11.693 6.94926 13.0617 8.3179 13.0617 10.0054C13.0617 11.6929 11.693 13.0616 10.0055 13.0616Z" fill="#6B7280"></path>
+                                                <path d="M16.0032 5.1077C16.0032 5.71678 15.5088 6.20763 14.9033 6.20763C14.2942 6.20763 13.8033 5.7132 13.8033 5.1077C13.8033 4.49862 14.2978 4.00777 14.9033 4.00777C15.5088 4.00777 16.0032 4.5022 16.0032 5.1077Z" fill="#6B7280"></path>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_713_34432">
+                                                    <rect width="20" height="20" fill="white"></rect>
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                    <span class="sr-only">Instagram</span>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/knQzx">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 .297c-6.627 0-12 5.373-12 12 0 5.303 3.438 9.8 8.207 11.387.6.111.828-.26.828-.577 0-.286-.01-1.042-.015-2.04-3.338.724-4.042-1.607-4.042-1.607-.545-1.384-1.33-1.754-1.33-1.754-1.086-.741.083-.726.083-.726 1.204.084 1.836 1.235 1.836 1.235 1.064 1.828 2.795 1.298 3.474.993.108-.771.417-1.298.76-1.598-2.665-.303-5.466-1.334-5.466-5.933 0-1.31.469-2.38 1.236-3.222-.125-.303-.535-1.528.116-3.176 0 0 1.007-.322 3.301 1.23.957-.266 1.984-.398 3.003-.404 1.019.006 2.046.138 3.003.404 2.294-1.552 3.301-1.23 3.301-1.23.653 1.648.241 2.873.118 3.176.769.842 1.236 1.912 1.236 3.222 0 4.607-2.805 5.628-5.474 5.923.429.371.815 1.102.815 2.224 0 1.606-.015 2.906-.015 3.293 0 .319.227.694.832.577A12.001 12.001 0 0 0 24 12.297c0-6.627-5.373-12-12-12z" fill="#6B7280"/></svg>
+                                            <span class="sr-only">GitHub</span>
+                                    </a>
+                                </li>
+                    </ul>
+                </li><li id="button-group-desktop" class="hide-on-proposal hidden justify-center @4xl:inline-flex">
+                    <div class="flex w-full flex-col justify-center gap-3 md:max-w-full md:flex-row md:items-center md:gap-0">
+                        <div id="add_second" class="w-full md:w-fit shop-now-button">
+                            
+                        </div>
+                        <script src="/js/user_page_source.js"></script>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="intro" class="contents-container">
+        <article class="flex flex-col items-center w-full max-w-screen-md p-4">
+            <div id="text-group" class="text-center mb-5">
+                <h2 style="line-height: 1.1" class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white md:text-3xl md:text-6xl">
+                    Mint your token
+                </h2>
+            </div>
+            <div class="w-full md:w-fit mx-auto">
+                <form id="data-form">
+                    <div class="form-group mb-4">
+                        <div class="file-upload">
+                        <input type="file" id="photo" accept="image/*" required>
+                        <label for="photo" class="upload-label">
+                            <i class="fas fa-pencil-alt upload-icon"></i>
+                        </label>
+                    </div>        
+                    </div>                                   
+                    <div class="form-group mb-4">
+                        <label for="name">Token name</label>
+                        <input type="text" placeholder="Bitcoin" id="name" required>
+                        <span>Your project unabbreviated name with spaces (usually 1-3 words).</span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="symbol">Token symbol</label>
+                        <input type="text" placeholder="BTC" id="symbol" required>
+                        <span>Currency symbol appearing in balance (usually 3-5 uppercase chars).</span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="precision">Token Decimals</label>
+                        <input type="number" value="9" id="precision" required>
+                        <span>The decimal precision of your token (9 is TON default).</span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="amount">Tokens to mint</label>
+                        <input type="number" placeholder="1000" id="amount" required>
+                        <span>Number of initial tokens to mint and send to your wallet address (float).</span>
+                    </div>
+                    <div class="form-group mb-4">
+                        <label for="description">Description</label>
+                        <input type="text" id="description" placeholder="The best token ever" required>
+                        <span>Optional sentence explaining about your project.</span>
+                    </div>
+                    <button onclick="createJettonButton()" style="
+                        background-color: #007bff; /* Начальный цвет кнопки */
+                        color: white; /* Цвет текста */
+                        padding: 10px 20px; /* Отступы для кнопки */
+                        border: none; /* Убираем рамки */
+                        border-radius: 5px; /* Закругляем углы */
+                        font-size: 16px; /* Размер шрифта */
+                        cursor: pointer; /* Изменение курсора при наведении */
+                        transition: background-color 0.3s, transform 0.3s; /* Плавный переход для фона и масштабирования */
+                    " 
+                    onmouseover="this.style.backgroundColor='#0056b3'; this.style.transform='scale(1.1)';" 
+                    onmouseout="this.style.backgroundColor='#007bff'; this.style.transform='scale(1)';">
+                        Deploy
+                    </button>
+                </form>
+            </div>
+        </article>
+    </section>
+    </div>
+    </main>
+  </body>
+</html>
